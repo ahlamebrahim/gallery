@@ -1,0 +1,52 @@
+div.gallery{
+    width:300px;
+    border:1px solid pink;
+    float: left;
+    margin:5px;
+    background-color: plum;
+    transition: transform 2s, border-radius 2s,background 2s;
+}
+div.gallery img{
+    width:300px;
+    height:300px ;
+    opacity: 0.5;
+    border:3px dotted purple;
+    transition: border-radius 2s,opacity 2s;
+    filter: blur(9px)
+     
+}
+div.gallery img:hover{
+    border: 1px solid palevioletred;
+    opacity: 1.0;
+    font-size:20px; 
+    border-radius: 200px;
+    filter: blur(0px)
+}
+div.gallery p{
+    /* display: none; */
+    text-align: center;
+    padding: 15px;
+    color:navy;
+    font-size: 25px;
+    transition: color 2s,font-size 2s,text-align 2s,font-family 2s;
+    
+}
+div.gallery p:hover{
+    color:red;
+    font-size:18px;
+    font-family: fantasy;
+    text-align: center;
+     
+}
+div.gallery:hover{
+    border-radius: 10%;
+    border: 1px solid #ddd;
+    background: lightslategray;
+    /* margin-top: 200px; */
+    /* transform: rotatez(500deg); */
+    display: inline;
+
+}
+div.gallery:hover p{
+    /* display: block; */
+}
